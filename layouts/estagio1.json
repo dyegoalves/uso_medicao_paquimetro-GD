@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5299999999999997
+    "zoomFactor": 0.30999999999999955
   },
   "objectsGroups": [
     {
@@ -200,7 +200,7 @@
       "persistentUuid": "35129fe2-b345-4362-9972-6a04fbcd9286",
       "width": 1483,
       "x": 71,
-      "y": 800,
+      "y": 667,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -216,7 +216,7 @@
       "persistentUuid": "b1aa3089-6de0-47c3-b55c-fa3e929df013",
       "width": 350,
       "x": 544,
-      "y": 371,
+      "y": 335,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,9 +230,9 @@
       "locked": false,
       "name": "botaoAvancar",
       "persistentUuid": "b0c6b14b-9904-4616-b6aa-fb0c14bdb452",
-      "width": 202,
-      "x": 1631,
-      "y": 921,
+      "width": 223,
+      "x": 1573,
+      "y": 843,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -1082,7 +1082,7 @@
           "parameters": [
             "Paquimetro",
             "984",
-            "383",
+            "350",
             "\n540+ TimeDelta()",
             ""
           ],
@@ -1096,7 +1096,7 @@
           "parameters": [
             "nanioRegua",
             "978",
-            "354",
+            "322",
             "540+ TimeDelta()",
             ""
           ],

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Estagio1",
-  "name": "Estagio1",
+  "mangledName": "Est1",
+  "name": "Est1",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.22999999999999954
+    "zoomFactor": 0.38999999999999957
   },
   "objectsGroups": [
     {
@@ -228,11 +228,11 @@
       "height": 50,
       "layer": "",
       "locked": false,
-      "name": "botaoAvancar",
-      "persistentUuid": "b0c6b14b-9904-4616-b6aa-fb0c14bdb452",
+      "name": "btAvancarEst1",
+      "persistentUuid": "6a0bf01d-7c35-44e0-828c-a0ff6a033af8",
       "width": 250,
-      "x": 1600,
-      "y": 900,
+      "x": 1609,
+      "y": 942,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -769,8 +769,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -786,8 +786,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -803,8 +803,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -820,8 +820,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -837,8 +837,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -854,8 +854,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 },
@@ -871,8 +871,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1.5,
+                    "y": 231.5
                   },
                   "customCollisionMask": []
                 }
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "name": "botaoAvancar",
+      "name": "btAvancarEst1",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -900,7 +900,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "12.png",
+                  "image": "avc1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -917,7 +917,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "22.png",
+                  "image": "avc2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -934,7 +934,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "32.png",
+                  "image": "avc3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -951,7 +951,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "42.png",
+                  "image": "avc4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -968,7 +968,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "52.png",
+                  "image": "avc5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -985,7 +985,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "62.png",
+                  "image": "avc6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1002,7 +1002,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "72.png",
+                  "image": "avc7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1019,7 +1019,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "8.png",
+                  "image": "avc8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1159,7 +1159,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "botaoAvancar"
+                "btAvancarEst1"
               ],
               "subInstructions": []
             }
@@ -1384,16 +1384,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "botaoAvancar"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -1421,7 +1411,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "botaoAvancar",
+                "btAvancarEst1",
                 ""
               ],
               "subInstructions": []
@@ -1459,7 +1449,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "botaoAvancar",
+                    "btAvancarEst1",
                     "",
                     "",
                     ""
@@ -1471,32 +1461,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "botaoAvancar",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "botaoAvancar"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "\"Estagio2\"",
+                    "\"Est2\"",
                     ""
                   ],
                   "subInstructions": []
@@ -1519,7 +1488,16 @@
       "name": "ANIMACAO DO BOTAO AVANCAR",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
       "parameters": []
     },
     {
@@ -1533,7 +1511,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "botaoAvancar",
+            "btAvancarEst1",
             "",
             "",
             ""
@@ -1548,21 +1526,13 @@
             "value": "ChangeSprite"
           },
           "parameters": [
-            "botaoAvancar",
+            "btAvancarEst1",
             "=",
             "2"
           ],
           "subInstructions": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
       "events": []
     }
   ],

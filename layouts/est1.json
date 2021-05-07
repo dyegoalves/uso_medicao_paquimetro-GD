@@ -1211,17 +1211,6 @@
                 "value": "Montre"
               },
               "parameters": [
-                "textEstagio1",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
                 "s1",
                 ""
               ],
@@ -1233,7 +1222,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "btAvancarG",
+                "textEstagio1",
                 ""
               ],
               "subInstructions": []
@@ -1257,7 +1246,19 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "btAvancarG",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,

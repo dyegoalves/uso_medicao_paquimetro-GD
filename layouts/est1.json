@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5699999999999996
+    "zoomFactor": 0.10999999999999939
   },
   "objectsGroups": [
     {
@@ -50,7 +50,7 @@
       "persistentUuid": "9e712c27-a8a1-463d-b8c3-7604fa54b648",
       "width": 1243,
       "x": 1802,
-      "y": 427,
+      "y": 387,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,7 +98,7 @@
       "persistentUuid": "3b0f3cf6-4504-45c4-9cae-44e806f1b08d",
       "width": 221,
       "x": 1695,
-      "y": 248,
+      "y": 208,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],

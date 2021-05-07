@@ -1122,6 +1122,78 @@
         "name": "prxEst34.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "voltarInicio8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "voltarInicio8.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1470,6 +1542,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/est7"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/est8"
     }
   ],
   "externalEvents": [],

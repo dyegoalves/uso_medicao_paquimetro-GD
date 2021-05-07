@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Est2",
-  "name": "Est2",
+  "mangledName": "Est5",
+  "name": "Est5",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.20999999999999994
+    "zoomFactor": 0.4699999999999999
   },
   "objectsGroups": [
     {
@@ -50,7 +50,7 @@
       "persistentUuid": "9e712c27-a8a1-463d-b8c3-7604fa54b648",
       "width": 1243,
       "x": 935,
-      "y": 363,
+      "y": 398,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,20 +65,31 @@
       "name": "nanioRegua",
       "persistentUuid": "3b0f3cf6-4504-45c4-9cae-44e806f1b08d",
       "width": 221,
-      "x": 829,
-      "y": 136,
+      "x": 636,
+      "y": 364,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "Variable",
+          "type": "string",
+          "value": "828"
+        },
+        {
+          "name": "Variable2",
+          "type": "string",
+          "value": "365"
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": true,
-      "height": 102,
+      "height": 92,
       "layer": "",
       "locked": false,
-      "name": "textEstagio1",
+      "name": "textEstagio3",
       "persistentUuid": "35129fe2-b345-4362-9972-6a04fbcd9286",
       "width": 1483,
       "x": 100,
@@ -91,31 +102,42 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 429,
+      "height": 367,
       "layer": "",
       "locked": false,
       "name": "s1",
       "persistentUuid": "b1aa3089-6de0-47c3-b55c-fa3e929df013",
-      "width": 333,
-      "x": 464,
-      "y": 306,
+      "width": 269,
+      "x": 397,
+      "y": 355,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pox",
+          "type": "string",
+          "value": "466"
+        },
+        {
+          "name": "poy",
+          "type": "string",
+          "value": "341"
+        }
+      ]
     },
     {
       "angle": 0,
       "customSize": true,
-      "height": 151,
+      "height": 596,
       "layer": "",
       "locked": false,
-      "name": "setaS1",
-      "persistentUuid": "19424d11-55c5-4978-9ee4-a2fd01a7a356",
-      "width": 287,
-      "x": 474,
-      "y": 459,
-      "zOrder": 12,
+      "name": "block2",
+      "persistentUuid": "b73e1787-b3da-4e43-b17d-8bce3ce4581b",
+      "width": 64,
+      "x": 1019,
+      "y": 367,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -123,15 +145,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 156,
+      "height": 670,
       "layer": "",
       "locked": false,
-      "name": "setaS2",
-      "persistentUuid": "7522d641-264e-4192-a06c-36ad054ad8cd",
-      "width": 430,
-      "x": 404,
-      "y": 546,
-      "zOrder": 13,
+      "name": "block1",
+      "persistentUuid": "70ee4ba4-70af-4114-8b89-f23f2e0b8169",
+      "width": 64,
+      "x": 799,
+      "y": 379,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -143,11 +165,11 @@
       "layer": "",
       "locked": false,
       "name": "btAvancarG",
-      "persistentUuid": "e717e539-2cc1-43d8-a0fd-cc7552109024",
+      "persistentUuid": "c1249002-2a4e-4c9f-8859-dea5dbcf7999",
       "width": 250,
       "x": 1600,
       "y": 950,
-      "zOrder": 14,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -159,11 +181,11 @@
       "layer": "",
       "locked": false,
       "name": "btVoltarG",
-      "persistentUuid": "fc91e129-19b1-49e1-91f5-80d555738a82",
+      "persistentUuid": "63afbbc3-bd8a-4d18-ba14-d0dcba3f02d8",
       "width": 250,
       "x": 100,
       "y": 950,
-      "zOrder": 15,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -231,8 +253,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 10,
+                    "y": 1385
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -251,14 +273,33 @@
     {
       "bold": false,
       "italic": false,
-      "name": "textEstagio1",
+      "name": "textEstagio4",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Ao utilizar o instrumento, lembre-se de:\n3 - abrir o paquímetro com uma distância maior que a dimensão do objeto a ser medido. ",
+      "string": "3- O encosto móvel deve ser fechado suavemente até que toque a outra extremidade da peça.",
+      "font": "",
+      "characterSize": 35,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "textEstagio3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "6 - Feita a leitura da medida, o paquímetro deve ser aberto e a peça retirada sem que os encostos a toquem.",
       "font": "",
       "characterSize": 35,
       "color": {
@@ -273,7 +314,15 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -295,8 +344,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -312,8 +361,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -329,8 +378,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -346,8 +395,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -363,8 +412,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -380,8 +429,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 },
@@ -397,8 +446,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 15.5,
+                    "y": 227.5
                   },
                   "customCollisionMask": []
                 }
@@ -1029,6 +1078,343 @@
           ]
         }
       ]
+    },
+    {
+      "name": "block2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31,
+                    "y": 34.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 63,
+                    "y": 33.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "block1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 71,
+                    "y": 31.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 68,
+                    "y": 30.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ps1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ps13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1039,7 +1425,7 @@
       "creationTime": 0,
       "disabled": false,
       "folded": false,
-      "name": "SISTEMA EXECUTA UPDATE FRAME",
+      "name": "SISTEMA EXECUTA UPDATE() FRAME",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -1055,7 +1441,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "setaS1"
+                "textEstagio3"
               ],
               "subInstructions": []
             },
@@ -1065,7 +1451,29 @@
                 "value": "Cache"
               },
               "parameters": [
-                "setaS2"
+                "ps1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "textEstagio4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "s1",
+                "=",
+                "6"
               ],
               "subInstructions": []
             },
@@ -1133,34 +1541,50 @@
                 ""
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "setaS1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
                 "value": "Montre"
               },
               "parameters": [
-                "setaS2",
+                "textEstagio3",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "ps1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "nanioRegua",
+                "1800",
+                "374",
+                "150",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "textEstagio4",
                 ""
               ],
               "subInstructions": []
@@ -1176,15 +1600,77 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AnimationEnded"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "setaS2"
+                "nanioRegua",
+                "block2",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "nanioRegua"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "s1",
+                "1800",
+                "1064",
+                "150",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "s1",
+                "block1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "s1"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -1241,7 +1727,7 @@
                       "parameters": [
                         "btVoltarG",
                         "",
-                        "yes",
+                        "",
                         ""
                       ],
                       "subInstructions": []
@@ -1255,7 +1741,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Est1\"",
+                        "\"Est34\"",
                         "yes"
                       ],
                       "subInstructions": []
@@ -1290,7 +1776,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Est34\"",
+                        "\"Est6\"",
                         "yes"
                       ],
                       "subInstructions": []
@@ -1414,5 +1900,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    }
+  ]
 }

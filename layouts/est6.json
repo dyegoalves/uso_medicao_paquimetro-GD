@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.2899999999999999
+    "zoomFactor": 0.6900000000000003
   },
   "objectsGroups": [],
   "variables": [],
@@ -117,8 +117,8 @@
       "name": "tx12",
       "persistentUuid": "b76eb6ea-3672-4605-892a-2a60b5832b15",
       "width": 0,
-      "x": 403,
-      "y": 825,
+      "x": 414,
+      "y": 824,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,7 +207,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Erro por  \nDevido ao ângulo de visão do operador, pode parecer que há coincidência entre um traço da escala fixa com outro da móvel. Para não enganar a visão, o operador deve realizar a leitura situando o paquímetro em umaposição                          aos olhos.",
+      "string": "Erro por  \nDevido ao ângulo de visão do operador, pode parecer que há coincidência entre um traço da escala fixa com outro da móvel. Para não enganar a visão, o operador deve realizar a leitura situando o paquímetro em uma posição                          aos olhos.",
       "font": "",
       "characterSize": 35,
       "color": {

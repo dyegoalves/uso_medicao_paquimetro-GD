@@ -7,13 +7,13 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": false,
+    "adaptGameResolutionAtRuntime": true,
     "folderProject": true,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "projectUuid": "b50368b1-5ce2-49a8-84a3-2edd0e0f976d",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "uso_medicao_paquimentro",
